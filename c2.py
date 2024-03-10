@@ -402,7 +402,7 @@ def main():
         elif "cpu_over" in cnc:
             try:
                 ip = cnc.split()[1]
-                os.system(f'python3 cpu.py {ip}
+                os.system(f'python3 cpu.py {ip}')
             except IndexError:
                 print('Usage: cpu_over <ip>')
                 print('Example: cpu_over 1.1.1.1')
